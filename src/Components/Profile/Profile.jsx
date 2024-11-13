@@ -16,7 +16,7 @@ const Profile = () => {
     const fetchUserProfile = async () => {
       try {
         const token = Cookies.get('jwt_token'); // Get auth token from cookies
-        const response = await axios.get('https://blogs-backend-qn2y.onrender.com/profile', {
+        const response = await axios.get('https://oscowl-backend-xohl.onrender.com/profile', {
           headers: {
             Authorization: `Bearer ${token}`, // Send token in the request headers for authentication
           },
@@ -69,7 +69,7 @@ const Profile = () => {
       };
       console.log(updatedData)
       const response = await axios.put(
-        'https://blogs-backend-qn2y.onrender.com/profile',
+        'https://oscowl-backend-xohl.onrender.com/profile',
         updatedData,
         {
           headers: {
