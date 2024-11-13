@@ -72,7 +72,7 @@ const RegisterForm = () => {
         };
 
         const response = await axios.post(
-          'https://oscowl-backend-xohl.onrender.com/register', // Update this URL with your backend
+          'https://blogs-backend-qn2y.onrender.com/register', // Update this URL with your backend
           formData
         );
 

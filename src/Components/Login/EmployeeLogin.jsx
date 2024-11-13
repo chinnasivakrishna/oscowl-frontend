@@ -43,7 +43,7 @@ const LoginForm = () => {
     console.log("done")
     if (validate()) {
       try {
-        const response = await axios.post("https://oscowl-backend-xohl.onrender.com/login", {
+        const response = await axios.post("https://blogs-backend-qn2y.onrender.com/login", {
       email: id,
       password: password
     })
