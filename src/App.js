@@ -27,11 +27,11 @@ function App() {
     <Router>
       <Header />
       <Routes>
-        <Route path="/login" element={<Login />} />
+        <Route path="/" element={<Login />} />
         <Route path="/register" element={<Register />} />
         
         <Route path="/my-project" element={<Layout><Home /></Layout>} />
-        <Route path="/" element={<Layout><GraphPage /></Layout>} />
+        <Route path="/dash" element={<Layout><GraphPage /></Layout>} />
          <Route path="/add-project" element={<Layout><AddBlog /></Layout>} />
         <Route path="/profile" element={<Layout><Profile /></Layout>} />
         <Route path="/update-project/:id" element={<Layout><UpdateProjectPage /></Layout>} />

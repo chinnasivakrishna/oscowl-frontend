@@ -8,7 +8,7 @@ function Sidebar() {
   return (
     <div className="sidebar">
       <ul className="sidebar-menu">
-        <Link to="/"><li><FontAwesomeIcon icon={faHome} /></li></Link>
+        <Link to="/dash"><li><FontAwesomeIcon icon={faHome} /></li></Link>
         <Link to="/add-project"><li><FontAwesomeIcon icon={faSquarePlus} /></li> </Link>
         <Link to="/my-project"><li><FontAwesomeIcon icon={faBook} /></li></Link>
         <Link to="/profile"><li><FontAwesomeIcon icon={faUser} /></li></Link>

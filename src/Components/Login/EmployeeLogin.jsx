@@ -50,7 +50,7 @@ const LoginForm = () => {
     console.log(response)
     console.log(response.data.user)
     Cookies.set('jwt_token', response.data.token, { expires: 1 });
-          navigate('/',{state:{user:response.data.user.Name, id:response.data.user._id}})
+          navigate('/dash',{state:{user:response.data.user.Name, id:response.data.user._id}})
      
   } catch (error) {
     toast.info('Invalid login Cradentials!');

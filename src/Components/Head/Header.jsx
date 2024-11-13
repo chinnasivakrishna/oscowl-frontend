@@ -21,10 +21,10 @@ function Header() {
   const handleLogout = () => {
     Cookies.remove('jwt_token'); 
     setIsAuthenticated(false);
-    navigate('/');
+    navigate('/login');
   };
   const home = () =>{
-    navigate('/')
+    navigate('/login')
   }
 
   return (

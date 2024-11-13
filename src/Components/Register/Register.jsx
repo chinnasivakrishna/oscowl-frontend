@@ -80,7 +80,7 @@ const RegisterForm = () => {
           // On successful registration, store the JWT token in cookies
           Cookies.set('jwt_token', response.data.token, { expires: 1 }); // Set token expiration as needed
           alert('Registration successful');
-          window.location.href = '/login'; // Redirect to login page after successful registration
+          window.location.href = '/'; // Redirect to login page after successful registration
         }
       } catch (error) {
         console.error(error);
