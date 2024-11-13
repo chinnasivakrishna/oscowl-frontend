@@ -1,0 +1,74 @@
+.add-project-container {
+    padding: 30px;
+    background-color: #f4f7f6;
+  }
+  
+  .add-project-form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  label {
+    font-weight: bold;
+  }
+  
+  input,
+  textarea {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+  
+  textarea {
+    resize: vertical;
+    min-height: 100px;
+  }
+  
+  h2 {
+    margin-top: 30px;
+    font-size: 22px;
+    font-weight: 600;
+  }
+  
+  .image-item {
+    margin-bottom: 20px;
+  }
+  
+  .image-preview {
+    max-width: 100%;
+    height: auto;
+    margin-top: 10px;
+  }
+  
+  .new-image-form .form-group {
+    margin-bottom: 15px;
+  }
+  
+  .remove-image-btn,
+  .add-image-btn,
+  .submit-project-btn {
+    background-color: #4caf50;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .remove-image-btn {
+    background-color: #f44336;
+  }
+  
+  .remove-image-btn:hover,
+  .add-image-btn:hover,
+  .submit-project-btn:hover {
+    opacity: 0.8;
+  }
+  

@@ -1,0 +1,25 @@
+/* Home.css */
+.chart-container {
+    width: 80%;
+    margin: 20px auto;
+    padding: 10px;
+  }
+  
+  .graph-link {
+    display: block;
+    text-align: center;
+    margin: 20px 0;
+  }
+  
+  .graph-link button {
+    background-color: #3498db;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .graph-link button:hover {
+    background-color: #2980b9;
+  }
+  
