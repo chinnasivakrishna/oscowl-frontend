@@ -1,6 +1,3 @@
-I see! Let me clean it up and make it more readable by formatting the sections with proper headers, bullet points, and code blocks. Here's a refined version of your README with improved structure:
-
----
 
 # To Do Application
 
